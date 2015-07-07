@@ -120,7 +120,26 @@
 			<string>^\s*((?i:function|sub|public sub|private sub|public function|private function))\s*([a-zA-Z_]\w*)\s*(\()([^)]*)(\)).*\n?</string>
 			<key>name</key>
 			<string>meta.function.asp</string>
-		</dict>
+        </dict>
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>storage.type.class.asp</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function.asp</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>^\s*((?i:class))\s*([a-zA-Z_]\w*)\s*\n</string>
+            <key>name</key>
+            <string>meta.class.asp</string>
+        </dict>
 		<dict>
 			<key>begin</key>
 			<string>('|(?i:Rem)\s{1,})</string>
