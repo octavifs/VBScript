@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Functions</string>
+    <key>scope</key>
+    <string>source.vbs support.function.asp</string>
+    <key>settings</key>
+    <dict>
+        <key>showInIndexedSymbolList</key>
+        <integer>0</integer>
+    </dict>
+    <key>uuid</key>
+    <string>cb5e3c2c-248a-11e5-b696-feff819cdc9f</string>
+</dict>
+
